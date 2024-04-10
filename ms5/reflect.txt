@@ -1,0 +1,25 @@
+Throughout the development of the "General Healthcare Facility Pre-Triage Application,"
+I gained a deeper understanding of object-oriented programming (OOP) concepts in C++.
+I learned how to effectively use classes, inheritance, and polymorphism to model real-world
+entities such as patients and healthcare facilities.
+
+This project enabled me to grasp the importance of encapsulation, inheritance, and
+polymorphism in building modular and extensible software systems. Additionally, I
+acquired proficiency in managing dynamic memory allocation and resource management
+using constructors, destructors, and smart pointers, which are essential aspects of
+C++ programming.
+
+One of the significant challenges I faced during the development process was
+designing and implementing a robust data management system for patient records while
+adhering to object-oriented principles.
+
+Comparing to the previous C workshop, I found that managing code with C++ class based
+apporach is more flexible and code is more maintainable too. There were few obstacles
+I faced while completing the milestones like working with virtual functions, and mostly
+template functions, for which i used `geeksforgeeks` to get description. For the milestone 3,
+on time module, I asked for my professor and great thanks to him that he helped me solve my 
+problem so easily. 
+
+Overall, moving from C ( functional based ) to C++ ( object oriented based ) approach,
+I learnt a better way to manage my future projects. This whole journey taught me lots of
+useful concepts.
