@@ -168,7 +168,6 @@ namespace seneca
         Patient *p = m_lineup[idx];
 
         Time callTime(U.getTime());
-        U.setDebugTime(8, 49);
 
         std::cout << std::endl;
         std::cout << "******************************************" << std::endl;
@@ -178,7 +177,9 @@ namespace seneca
         std::cout << "******************************************" << std::endl
                   << std::endl;
 
+        setAverageWaitTime(*p);
         removePatientFromLineup(idx);
+        U.setDebugTime(8, 49);
     }
 
     void PreTriage::lineup()
@@ -251,7 +252,7 @@ namespace seneca
 
         Time waitTime = patientType == 'C' ? m_contagionWaitTime : m_triageWaitTime;
         Time t = ((currentTime - p.time()) + (waitTime * (ticketNumber - 1))) / ticketNumber;
-
+        
         if (patientType == 'C')
             m_contagionWaitTime = t;
         else
